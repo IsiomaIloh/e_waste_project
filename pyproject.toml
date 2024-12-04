@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "e_waste_project"
+version = "0.1.0"
+description = "The E-Waste Dataset for Recycling and Disposal Analysis is a comprehensive resource aimed at supporting research, policymaking, and environmental initiatives in the domain of electronic waste management. It encompasses detailed information on 3,000 e-waste items collected for recycling and disposal, providing a data-driven foundation for understanding the lifecycle of electronic products, their conditions, recycling methods, and final outcomes."
+authors = ["Isioma Iloh <ilohkingsleyisioma@gmail.com>"]
+readme = "README.md"
+repository = "https://github.com/IsiomaIloh/Customer-Shopping-Trends-Dataset"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pandas = "^2.2.1"
+matplotlib = "^3.8.3"
+seaborn = "^0.13.2"
+numpy = "^2.1.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
